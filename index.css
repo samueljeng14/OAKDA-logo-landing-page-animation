@@ -1,0 +1,60 @@
+* {
+	position: relative;
+	box-sizing: border-box;
+	font-size: 0px;
+}
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.for_svg {
+	width: 100vw;
+	overflow: hidden;
+}
+
+.for_svg svg {
+	left: -50vw;
+}
+
+.for_hover {
+	cursor: pointer;
+}
+
+.for_hover:hoverg:first-child {
+	opacity: 0;
+}
+
+.chat {
+	transform-origin: 513px 454px;
+	transition-property: transform;
+	transition-duration: 0.3s;
+}
+
+.bgc {
+	position: fixed;
+	height: 100vh;
+	width: 0px;
+	overflow: hidden;
+	background-color: #4D1D1D;
+	text-align: center;
+	padding-top: calc( 50vh - 50px);
+	z-index: 10;
+	transition-duration: 0.8s;
+}
+
+.bgc span {
+	color: white;
+	opacity: 0;
+	transition-duration: 0.5s;
+	font-size: 100px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+}
+
+.bgc span span {
+	font-size: inherit;
+	font-family: inherit;
+	font-weight: 500;
+}
